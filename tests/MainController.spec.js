@@ -1,5 +1,5 @@
-describe('example test', function() {
-    it('should be true', function() {
-        expect('foo').toBe('foo');
+describe('Basic Functionality', function() {
+    it('should add two numbers', function() {
+        expect(addNumbers(1, 3)).toBe(4);
     });
 });
